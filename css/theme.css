@@ -368,8 +368,8 @@ ul.slick-dots li.slick-active button {
 }
 
 .btn-primary {
-    background-color: #f77d0a;
-    border-color: #f77d0a;
+    background-color: #fb1818;
+    border-color: #fb1818;
     color: #fff !important;
 }
 
@@ -1062,7 +1062,7 @@ form label {
 }
 
 #sidebarleft ul i, #sidebarleft ul svg{
-    color: #f77d0a;
+    color: #fb1818;
 }
 
 #sidebarleft ul li a.active, #sidebarleft ul li a.active i, #sidebarleft ul li a.active svg {
