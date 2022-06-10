@@ -58,7 +58,7 @@
     <!-- Content Wrap  -->
     <div class="content-wrap">
         <div class="subsite-banner">
-           <img src="img/bike/avanger.png">
+           <img src="img/bike/avenger.png">
         </div>
         <div class="subsite">
             <div class="classifi-content">
@@ -76,7 +76,7 @@
         </div> -->
        <div class="classifi-section ">
             <div class="classifi-section-item">
-                  <form>
+                  <form action="sendmail.php" method="post">
                     <!-- ---------------- -->
                    <div class="form-inline flex-nowrap">
                         <div class="form-group input_mr10px">
@@ -241,6 +241,7 @@
     var location = $('#location').val();
     var pickupdate = $('#pickupdate').val();
     var dropdate = $('#dropdate').val();
+    var dlocation =$('#dlocation').val();
     var termandcondition = $('.termandcondition').val();
 
      if (name == "") {
@@ -262,6 +263,10 @@
      if (pickupdate == "") {
         // $('#first-name-info').addClass("error");
         $(".pickupdate").html("Please Select Pickup Date");
+    } 
+    if (dlocation == "") {
+        // $('#first-name-info').addClass("error");
+        $(".dlocation").html("Please Select Drop Location");
     } 
      if (dropdate == "") {
         // $('#first-name-info').addClass("error");
